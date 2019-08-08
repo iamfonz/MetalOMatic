@@ -38,8 +38,9 @@ function init() {
             'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235047/metalomaticaudio/HeavyRiff_2_ulukzc.mp3',
             'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235048/metalomaticaudio/HeavyRiff_3_z4nj4t.mp3',
             'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235048/metalomaticaudio/LeadLick_1_cdxuuj.mp3',
-            'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235199/metalomaticaudio/LeadLick_3_oabagj.mp3',
-            'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235199/metalomaticaudio/LeadLick_2_lvrw2s.mp3'
+			'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235199/metalomaticaudio/LeadLick_2_lvrw2s.mp3',
+            'https://res.cloudinary.com/dgxueyjws/video/upload/v1565235199/metalomaticaudio/LeadLick_3_oabagj.mp3'
+            
             
         ],
     finishedLoading
