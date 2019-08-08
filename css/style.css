@@ -1,0 +1,51 @@
+.drums, .heavyGit, .leadGit{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    
+}
+
+h1, h2{
+    font-family: 'Metal Mania', cursive;
+}
+h1{
+    font-size:60px;
+}
+body{
+    font-family: 'Permanent Marker', cursive;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
+.horns{
+    width: 20%;
+    margin: auto;
+    display: block;
+    
+}
+
+.sheet.animated{
+    animation: step 300ms steps(3) infinite;
+    padding:30px;
+}
+
+@keyframes step {100% { transform:translatex(-384px) ; }
+}}
+
+.hidden{
+	display:none;
+	}
+
+#stage{
+    background-image: url("/images/theatre.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+   
+}

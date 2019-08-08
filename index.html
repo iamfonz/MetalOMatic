@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metal-O-Matic</title>
+        <meta charset="utf-8">
+        <script src="scripts/main.js"></script>
+        <script src="scripts/BufferLoader.js"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Permanent+Marker" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css"> 
+        <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <main class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="horns img-responsive" src="images/metalHorns.png">
+                </div>
+                
+                <div class="col-md-4">
+                    <h1 class="text-center">Metal-O-Matic!</h1>
+                </div>
+                <div class="col-md-4">
+                    <img class="horns" src="images/metalHorns.png">
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6" id="stage">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 100 100" xml:space="preserve">
+<g >
+  <image xlink:href="images/guitarist1.png" x="0" y="0" height="128px" width="384px" class="sheet"/>
+	
+  </g></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 100 100" xml:space="preserve">
+<g >
+  <image xlink:href="images/drummer.png" x="0" y="-20" height="128px" width="384px" class="sheet"/>
+	
+</g>
+</svg>
+
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 100 100" xml:space="preserve">
+<g >
+  <image xlink:href="images/guitarist2.png" x="0" y="0" height="128px" width="384px" class="sheet"/>
+	
+</g>
+</svg>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 drums">
+                    <h2 class="text-center">Drums</h2>
+                    <form name="drums">
+                        <input type="radio" name="drums"  value="0"/>Two-Step Beat <br>
+                        <input type="radio" name="drums"  value="1"/>Blast Beat <br>
+                        <input type="radio" name="drums"  value="2"/>Walking Double Bass<br>
+                        <input type="radio" name="drums"  value="x"/>No Drums<br>
+                        
+                    </form>
+                
+                </div>
+                
+                <div class="col-md-4 heavyGit">
+                    <h2 class="text-center">Heavy Guitar</h2>
+                    <form name="heavy">
+                        <input type="radio" name="heavy"  value="3"/>Heavy Riff 1 <br>
+                        <input type="radio" name="heavy"  value="4"/>Heavy Riff 2 <br>
+                        <input type="radio" name="heavy"  value="5"/>Heavy Chugs<br>
+                        <input type="radio" name="heavy"  value="x"/>No Heavy Guitar<br>
+                        
+                        
+                    </form>
+                
+                </div>
+                
+                <div class="col-md-4 leadGit">
+                    <h2 class="text-center">Lead Guitar</h2>
+                    <form name="lead">
+                        <input type="radio" name="lead"  value="6"/>Eerie Lead<br>
+                        <input type="radio" name="lead"  value="7"/>Shredder <br>
+                        <input type="radio" name="lead"  value="8"/>Muted Lead<br>
+                        <input type="radio" name="lead"  value="9"/>No Lead Guitar<br>
+                        
+                    </form>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-4 align-self-center">
+                    <input type="button" id="play" onclick="play()" value="Play"/> 
+                    
+                    <input type="button" id="stop" onclick="stop()" value="Stop"/>
+                    
+                </div>
+            </div>
+        
+        
+        </main>
+    
+    </body>
+
+</html>
